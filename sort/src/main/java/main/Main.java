@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-//"C:\\univer\\inginer\\sort\\t.txt"
+
 public class Main {
     public static void main(String[] args) {
         try(Reader in = new FileReader("C:\\univer\\inginer\\sort\\t.txt")) {
