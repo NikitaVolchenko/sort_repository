@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a4d0e61-52ea-4450-8a8f-d31f7685e52e" name="Changes" comment="реализована быстрая сортировка" />
+    <list default="true" id="1a4d0e61-52ea-4450-8a8f-d31f7685e52e" name="Changes" comment="реализована быстрая сортировка">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../data/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphics/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphics/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/graphics/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/graphics/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

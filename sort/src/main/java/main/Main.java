@@ -2,30 +2,26 @@ package main;
 
 import graphics.Info;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.security.KeyPair;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+import java.util.Scanner;
+//"C:\\univer\\inginer\\sort\\t.txt"
 public class Main {
     public static void main(String[] args) {
-        int[] array = null;
-        try (BufferedReader in = new BufferedReader(new FileReader("C:\\univer\\sort\\sort_repository\\data\\test.txt")))
-        {
-            array = in.lines().mapToInt(Integer::parseInt).toArray();
+        try(Reader in = new FileReader("C:\\univer\\inginer\\sort\\t.txt")) {
+            int value = in.read();
+            while (value != -1) {
+                System.out.print((char)value);
+                value = in.read();
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
-        catch (IOException | NumberFormatException e)
-        {
-            e.printStackTrace();
-        }
-        QuickSort.quickSort(array, 0, array.length - 1);
-
-        /*for(int i = 0; i < array.length; ++i) {
-            System.out.print(array[i] + " ");
-        }*/
-        Info.info(array);
-        //System.out.println();
     }
+
 }
