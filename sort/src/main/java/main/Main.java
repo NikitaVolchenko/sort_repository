@@ -1,5 +1,7 @@
 package main;
 
+import graphics.Info;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -18,9 +20,12 @@ public class Main {
         {
             e.printStackTrace();
         }
-        for(int i = 0; i < array.length; ++i) {
+        QuickSort.quickSort(array, 0, array.length - 1);
+
+        /*for(int i = 0; i < array.length; ++i) {
             System.out.print(array[i] + " ");
-        }
-        System.out.println();
+        }*/
+        Info.info(array);
+        //System.out.println();
     }
 }
